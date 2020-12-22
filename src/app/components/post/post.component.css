@@ -1,0 +1,21 @@
+.card{
+
+
+       background:white;
+       border-radius:5px;
+       text-align:left;
+       padding:0vmin 10vmin 5vmin 10vmin;
+       box-shadow:0px 25px 42px rgba(0, 0, 0, 0.2);
+       z-index:1;
+       margin-bottom:50px;
+   }
+
+   .card-title {
+        color: black;
+        font-weight:bold;
+        font-size:1.4em;
+    }
+
+    .card-text{
+          color: dimgray;  
+    }
