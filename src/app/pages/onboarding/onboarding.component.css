@@ -1,0 +1,10 @@
+.w3-container{
+      
+
+        /* background:white; */
+        border-radius:5px;
+       
+        box-shadow:0px 25px 42px rgba(0, 0, 0, 0.2);
+        z-index:1;
+    
+    }
