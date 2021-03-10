@@ -1,0 +1,65 @@
+
+
+<div class="container">
+        <div
+          *ngIf="isLoading; else Content"
+          class="d-flex justify-content-center align-items-center min-vh-100"
+        >
+          <div
+            class="spinner-border text-light"
+            style="width: 3rem; height: 3rem;"
+            role="status"
+          ></div>
+        </div>
+      
+        <ng-template #Content>
+          <div class="row m-5">
+
+            <!-- will render list of post here -->
+            <div class="col col-md-7"> 
+              <!-- <div class="card">   -->
+              <div *ngFor="let post of posts">
+                <app-post [post]="post"></app-post>
+              </div>
+            <!-- </div>  -->
+            </div>
+
+<!-- -------------------------FOR RECENT USERS--------------------------------------- -->
+
+            <!-- will render list of new user -->
+            <!-- <div class="col col-md-5">
+              <p class="text-muted text-uppercase text-center">Recent new User</p>
+              <div *ngFor="let user of users">
+                <app-user [user]="user"></app-user>
+              </div>
+            </div> -->
+<!-- --------------------------------------------TRYING HASHTAGS------------------------ -->
+<div  class="col col-md-5">
+  <div class="w3-container w3-padding bg-dark">
+    <h4 style="color: antiquewhiteyoutube;">Tags</h4>
+  </div>
+  <div class="w3-container w3-white">
+    <hr>
+    <p>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Photography</span> <br>
+       <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#New York</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#London</span>  <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Buisness</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Norway</span>  <br>
+       <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Sweaters</span>  <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Education</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Deals</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Accessories</span>  <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Technology</span>  <br>
+       <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Clothing</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Shopping</span>  <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">#Science</span>   <br>
+      <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Trends</span>
+    </p>
+  </div>
+</div>
+<!-- ---------------------------- -->
+          </div>
+        </ng-template>
+      </div>
+      
