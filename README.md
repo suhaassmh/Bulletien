@@ -10,7 +10,6 @@ Tech-stack : HTML, CSS, Typescript, Angular, Firebase
 ![Home Page](src/images/2.png?raw=true )
 ![Home Page](src/images/3.png?raw=true )
 ![Home Page](src/images/4n.png?raw=true )
-![Home Page](src/images/5.png?raw=true )
 ![Home Page](src/images/0.png?raw=true )
 
 
