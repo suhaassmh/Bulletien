@@ -1,4 +1,4 @@
-# Bulletien
+# Bulletin
 
 A social-media themed web application for sharing and uploading local news instantly.
 Tech-stack : HTML, CSS, Typescript, Angular, Firebase
